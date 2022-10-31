@@ -41,10 +41,12 @@
   margin: 0;
   padding: 0px;
 }
-.list__item, .section-header {
+.list__item, 
+.section-header {
   list-style: none;
 }
-.input, .button{
+.input, 
+.button{
   outline: none;
 }
 .button {
