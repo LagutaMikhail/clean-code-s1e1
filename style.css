@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.new-task-wrapper {
+.add-item__wrapper {
   display: flex;
   padding-top: 20px;
 }
@@ -88,11 +88,6 @@
   color: #333;
 }
 
-/* New Task */
-.add-item__heade {
-  display: block;
-  margin: 0 0 20px;
-}
 .input#new-task {
   width: 318px;
 }
@@ -143,11 +138,11 @@
   display: none;
 }
 
-.list__item.edit-mode .input[type=text] {
+.list__item_edit .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list__item.edit-mode .task {
+.list__item_edit .task {
   display: none;
 }
